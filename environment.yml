@@ -1,0 +1,35 @@
+name: sprint12-gold-recovery
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Python base
+  - python=3.11
+  
+  # Core data science libraries
+  - pandas=2.1.*
+  - numpy=1.24.*
+  - scipy=1.11.*
+  
+  # Machine Learning
+  - scikit-learn=1.3.*
+  
+  # Visualization
+  - matplotlib=3.7.*
+  - seaborn=0.12.*
+  - plotly=5.17.*
+  
+  # Jupyter ecosystem
+  - jupyter=1.0.*
+  - notebook=7.0.*
+  - ipykernel=6.25.*
+  - ipywidgets=8.1.*
+  
+  # Development and utilities
+  - pip=23.2.*
+  - tqdm=4.66.*
+  
+  # Additional pip packages if needed
+  - pip:
+    - optuna>=3.4.0  # For hyperparameter optimization if needed
+    - shap>=0.43.0   # For model explainability if needed
